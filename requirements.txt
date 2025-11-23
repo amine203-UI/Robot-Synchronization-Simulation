@@ -1,0 +1,4 @@
+# requirements.txt
+# Python standard libraries are used (no external packages required)
+# But if you want to use pygame, add:
+# pygame==2.1.2
