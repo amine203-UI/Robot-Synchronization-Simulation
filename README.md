@@ -6,7 +6,7 @@ This project simulates the movement and synchronization of multiple robots insid
 
 The project also includes a graphical interface that displays the grid and updates in real time as robots move. Robots start at random positions, move for a random number of steps, and then exit the working area. The simulation demonstrates thread synchronization, shared resource protection, and safe concurrent programming in Python.
 
----
+
 # Project Operation
 
 1. Ensure Python 3.8+ is installed.
@@ -14,7 +14,7 @@ The project also includes a graphical interface that displays the grid and updat
 2. Create a virtual environment (recommended): 
 ```bash
 python -m venv venv
-source venv/bin/activate (Linux/Mac) 
+venv/bin/activate (Linux/Mac) 
 venv\Scripts\activate (Windows)
 ```
 3. Install requirements if applicable (no external packages are included by default):
