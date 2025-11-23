@@ -1,5 +1,5 @@
 <h1 align="center">Robot Synchronization Simulation</h1>
----
+
 ## 🛍️ Overview
 
 This project simulates the movement and synchronization of multiple robots inside a two-dimensional grid. Each robot is implemented as a separate thread and moves randomly from one cell to another. To prevent conflicts when multiple robots try to enter the same cell at the same time, the program uses semaphores (or locks) to ensure mutual exclusion. Each cell can only contain one robot at any moment.
@@ -13,17 +13,17 @@ The project also includes a graphical interface that displays the grid and updat
 
 2. Create a virtual environment (recommended): 
 ```bash
-`python -m venv venv
-source venv/bin/activate` (Linux/Mac) 
-`venv\Scripts\activate` (Windows)
+python -m venv venv
+source venv/bin/activate (Linux/Mac) 
+venv\Scripts\activate (Windows)
 ```
 3. Install requirements if applicable (no external packages are included by default):
 ```bash
- `pip install -r requirements.txt`
+ pip install -r requirements.txt
 ```
 4. Run: 
 ```bash
-`python main.py`
+python main.py
 ```
 # Experiments and Test Scenarios
 - Try changing the number of rows/columns in main.py to observe the effect of size.
